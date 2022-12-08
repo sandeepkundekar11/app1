@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.watch_head {
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    padding-top: 2rem;
+    height:auto;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.watch_head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(164, 255, 255);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.watch_head1>div {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 6px;
+}
+.watch_head1>:last-child
+{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.btns> button
+{
+width: 6.3rem;
+height: 2rem;
+background-color: rgb(255, 70, 70);
+border-radius: 2rem;
+margin: 6px;
+color: white;
+font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+
+.container
+{
+    /* border:solid black 2px; */
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+    overflow:scroll;
+    overflow-x: hidden;
+    scrollbar-arrow-color:white;
+    margin-bottom: 5rem;
+    /* background-color:rgb(240, 240, 240); */
+
+}
+.card
+{
+    display: flex;
+    width: 250px;
+    /* background-color: rgb(164, 255, 255); */
+    font-size: 1.1rem;
+    margin: auto;
+    margin-top: 1rem;
+    padding: .5rem;
+    /* border-radius: 3rem; */
+    border-bottom: solid black 2px;
+}
+.card_time
+{
+    display: flex;
+    width: 70%;
+    justify-content: right;
+    margin-right: 5px;
+}
+.card_count
+{
+    width: 30%;
+    margin:3px;
+    font-weight: bold;
+}
+.card_time>div
+{
+    font-weight: bold;
+    margin:3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
