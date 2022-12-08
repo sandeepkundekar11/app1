@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/app1/static/css/main.308e7c6e.css",
+    "main.js": "/app1/static/js/main.5427f4d3.js",
+    "static/media/Bell.PNG": "/app1/static/media/Bell.20706d67622a59e3ec6b.PNG",
+    "index.html": "/app1/index.html",
+    "main.308e7c6e.css.map": "/app1/static/css/main.308e7c6e.css.map",
+    "main.5427f4d3.js.map": "/app1/static/js/main.5427f4d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.308e7c6e.css",
+    "static/js/main.5427f4d3.js"
+  ]
+}
